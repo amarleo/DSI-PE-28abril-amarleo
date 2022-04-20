@@ -1,4 +1,4 @@
-# DSI: Ejercicio Clase 7 de abril
+# DSI: Ejercicio Clase 21 de abril
 
 [![Coverage Status](https://coveralls.io/repos/github/amarleo/DSI-PE-7abril-amarleo/badge.svg?branch=master)](https://coveralls.io/github/amarleo/DSI-PE-7abril-amarleo?branch=master)
 

@@ -1,10 +1,6 @@
 {
   "entryPoints": [
-    "./src/pokemon.ts",
-    "./src/pokemonCreator.ts",
-    "./src/waterPokemon.ts",
-    "./src/waterPokemonCreator.ts",
-    ".src/clientCode.ts"
+    "./src/index.ts"
   ],
   "out": "./docs"
 }
