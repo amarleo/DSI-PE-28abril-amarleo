@@ -1,6 +1,8 @@
 {
   "entryPoints": [
-    "./src/operation.ts"
+    "./src/operation.ts",
+    "./src/filterMapAddReduce.ts",
+    "./src/filterMapSubReduce.ts"
   ],
   "out": "./docs"
 }

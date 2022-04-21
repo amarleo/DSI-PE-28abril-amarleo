@@ -5,7 +5,9 @@
     "./dist"
   ],
   "files": [
-  "src/operation.ts"
+  "src/operation.ts",
+  "src/filterMapAddReduce.ts",
+  "src/filterMapSubReduce.ts"
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
