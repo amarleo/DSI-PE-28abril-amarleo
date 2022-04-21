@@ -21,6 +21,16 @@ export class FilterMapAddReduce extends Operation {
     });
     return result;
   }
+
+  filter(func: (x:number) => boolean): number[] {
+    let result: number[] = [];
+    this._list.forEach((value: number) => {
+      if (func(value)) {
+        result.push(value);
+      }
+    });
+    return result;
+  }
 }
 
 /*

@@ -13,4 +13,15 @@ describe('FilterMapAddReduce Class Tests', () => {
       return x * x;
     })).to.be.eql([1, 0, 25, 100]);
   });
+  it('Filter Method', () => {
+    expect(array.filter((x: number) => {
+      return (x > 10);
+    })).to.be.eql([]);
+    expect(array.filter((x: number) => {
+      return (x < 10);
+    })).to.be.eql([1, 0, 5]);
+    expect(array.filter((x: number) => {
+      return (x === 10);
+    })).to.be.eql([10]);
+  });
 });

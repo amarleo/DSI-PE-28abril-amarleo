@@ -7,5 +7,5 @@ export abstract class Operation {
 
   abstract reduce(acc: number, curr: number): number;
   map(func: (x: number) => number) {}
-  filter() {}
+  filter(func: (x: number) => boolean) {}
 }
