@@ -32,8 +32,3 @@ export class FilterMapSubReduce extends Operation {
     return result;
   }
 }
-
-/*
-la invocación de filter
-filter(lista, (x: number) => {x > 10})
-*/
