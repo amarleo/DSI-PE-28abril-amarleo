@@ -13,6 +13,14 @@ export class FilterMapAddReduce extends Operation {
     });
     return acc;
   }
+
+  map(func: (x: number) => number): number[] {
+    let result: number [] = [];
+    this._list.forEach((value: number) => {
+      result.push(func(value));
+    });
+    return result;
+  }
 }
 
 /*

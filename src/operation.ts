@@ -6,6 +6,6 @@ export abstract class Operation {
   }
 
   abstract reduce(acc: number, curr: number): number;
-  map() {}
+  map(func: (x: number) => number) {}
   filter() {}
 }
