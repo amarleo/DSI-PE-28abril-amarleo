@@ -15,6 +15,17 @@ export abstract class Operation {
    * @param curr Current number
    */
   abstract reduce(acc: number, curr: number): number;
+
+  /**
+   * Map method. Given a function, it returns a list
+   * @param func function by param
+   */
   map(func: (x: number) => number) {}
+
+
+  /**
+   * Filter method. Given a function, it returns a list
+   * @param func function by param
+   */
   filter(func: (x: number) => boolean) {}
 }
