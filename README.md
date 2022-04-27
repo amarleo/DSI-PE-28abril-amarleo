@@ -1,6 +1,6 @@
-# DSI: Ejercicio Clase 21 de abril
+# DSI: Ejercicio Clase 28 de abril
 
-[![Coverage Status](https://coveralls.io/repos/github/amarleo/DSI-PE-21abril-amarleo/badge.svg?branch=master)](https://coveralls.io/github/amarleo/DSI-PE-21abril-amarleo?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/amarleo/DSI-PE-28abril-amarleo/badge.svg?branch=master)](https://coveralls.io/github/amarleo/DSI-PE-28abril-amarleo?branch=master)
 
 [![Tests](https://github.com/amarleo/DSI-PE-21abril-amarleo/actions/workflows/node.js.yml/badge.svg)](https://github.com/amarleo/DSI-PE-21abril-amarleo/actions/workflows/node.js.yml)
 
