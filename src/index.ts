@@ -29,10 +29,6 @@ export class FileManager {
       fs.watch(this._filePath, (event, filename) => {
         console.log(`\nThe file ${filename} was modified!`);
         console.log(`\nThe type of change was: ${event}`);
-
-      if (event === 'rename' && filename === filename) {
-        if (fs.ex)
-      }
       });
     } else {
       console.log(`\nFile not found`);
