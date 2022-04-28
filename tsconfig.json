@@ -5,7 +5,8 @@
     "./dist"
   ],
   "files": [
-  "src/index.ts",
+  "src/add.ts",
+  "src/watchFile.ts",
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
