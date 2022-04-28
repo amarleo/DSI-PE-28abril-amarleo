@@ -1,5 +1,4 @@
 import * as fs from 'fs';
-// import {spawn} from 'child_process';
 
 export class Add {
   _fileName: string;
@@ -38,13 +37,13 @@ export class Add {
       else {
         this._data = data.toString();
         this._result = this.addData();
+        console.log(this._result);
       }
     });
   }
 
   addData(): number {
     const splitData: string [] = this._data.split(' ');
-    console.log(this._data);
     let result: number = 0;
     splitData.forEach((value: string) => {
       result += Number(value);
@@ -53,3 +52,5 @@ export class Add {
     return result;
   }
 }
+
+const add = new Add('./inputs/sumList.txt');

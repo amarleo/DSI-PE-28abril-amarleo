@@ -8,7 +8,8 @@
     "test": "mocha",
     "coverage": "nyc npm test && nyc report --reporter=lcov",
     "operation": "tsc-watch --onSuccess \"node dist/operation.js\"",
-    "add": "tsc-watch --onSuccess \"node dist/add.js\""
+    "add": "tsc-watch --onSuccess \"node dist/add.js\"",
+    "watchFile": "tsc-watch --onSuccess \"node dist/watchFile.js\""
   },
   "repository": {
     "type": "git",
