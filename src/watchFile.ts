@@ -35,12 +35,15 @@ export class WatchFile {
   toWatch() {
     fs.watch(this._filename, (eventType, filename) => {
       console.log(`\nFile ${filename} was modified`);
+      let addOutput = 0;
       const add = spawn('node', ['', `dist/add.js ${this._filename}`]);
-      add.stdout.on('data', (value) => console.log(value));
-
-      // add.on('close', () => {
-      //   console.log(addOutput);
-      // });
+      if (eventType === 'change') {
+        add.stdout.on('data', (value) => addOutput = value);
+        console.log(addOutput);
+      }
+      add.on('close', () => {
+        console.log(addOutput);
+      });
     });
   }
 }
